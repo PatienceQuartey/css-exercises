@@ -1,0 +1,33 @@
+/* Mix & Match Descendant Combinators */
+
+
+div .text{
+
+    background-color: rgb(239, 239, 35);
+    
+}
+
+.container p{
+    font-size: 20px;
+    
+}
+
+div p{
+
+    text-align: center;
+}
+
+.container .text{
+    color: rgb(226, 138, 100);
+}
+
+
+
+/* 
+
+Only the `p` elements that are descendants of the `div` element
+ should have a yellow background, red text, 
+a font size of 20px, and center aligned.
+
+
+*/

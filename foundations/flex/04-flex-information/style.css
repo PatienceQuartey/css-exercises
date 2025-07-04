@@ -10,7 +10,40 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+   /* ----ADDED----- */
+  /*border: 5px solid red; */
+  text-align: center;
+  margin-bottom: 32px;
 }
+
+/*----------ADDED CODE-----------*/
+.item-container{
+  /*border: 5px solid indigo; */
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+
+}
+
+.item{
+  /* border:  3px solid green; */
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  justify-content: center;
+}
+
+
+.text{
+  text-align: center;
+}
+
+
+
+/*----------ADDED CODE ENDS-----------*/
+
+
+
 
 /* do not edit this footer */
 .footer {

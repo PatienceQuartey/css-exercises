@@ -5,10 +5,14 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+
+  display: flex;
+  flex-direction: column;
 }
 
 img {
   width: 600px;
+
 }
 
 button {
@@ -16,6 +20,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 15px;
 }
 
 input {
@@ -24,3 +29,106 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+
+.header, .footer{
+  display: flex;
+
+}
+
+.header{
+ /* border: 5px solid sandybrown; */
+  display: flex;
+  padding-bottom: 10px;
+
+}
+
+.content{
+  /* border: 5px solid slateblue; */
+
+  padding-top: 150px;
+  flex-wrap: wrap;
+  
+
+}
+
+.footer{
+  /* border: 5px solid rgb(171, 241, 39); */
+
+  background-color: #eeeeee;
+  display: flex;
+  padding-top: 10px;
+  margin-top: auto;
+
+}
+
+.left-links, .right-links{
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+
+
+
+  
+}
+
+.buttons{
+  display: flex ;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+.input{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.the-logo{
+  /*border: 5px solid chartreuse;*/
+
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  
+}
+
+.right-links{
+  margin-left: auto;
+  padding-right: 30px;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(107, 81, 241);
+
+}
+
+a:hover{
+  color: rgb(17, 17, 17);
+  text-decoration: underline;
+}
+
+
+
+
+
+
+/*
+---------------------------------------------------------------------------------------------------------------
+*/
+
+/*
+
+- The header and footer have padding.
+- The links in the header and footer are pushed to either side.
+- There is space between the links in the header and footer.
+- The footer has a light gray background (`#eeeeee`).
+- The logo, input and buttons are centered in the screen.
+- The buttons have an appropriate amount of padding.
+- There is space between the logo, input and buttons.
+
+
+
+*/
